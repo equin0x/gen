@@ -15,7 +15,7 @@ for /f %%B in ('dir /b /s %1\*.cmd') do (
 GoTo EOF
 
 :False
-ECHO No folder supplied/Invalid folder.
+ECHO No folder supplied/Invalid folder
 GoTo EOF
 
 :EOF
