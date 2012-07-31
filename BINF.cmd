@@ -1,4 +1,4 @@
-::www.github.com/equin0x/bat
+::EQUIN0X - 2012 - www.github.com/equin0x/bat
 ::VAR
 SET DELONEXIT=0
 ::START
