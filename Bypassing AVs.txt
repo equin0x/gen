@@ -13,7 +13,6 @@ Table of content:
 	*NUL Byte
 	*Parting
 
-
 NUL Byte:
 	The null byte (%NUL%) has to be one of the easiest and simplest ways of bypassing Anti-Viruses.
 	This method is so easy, anyone can do it.
