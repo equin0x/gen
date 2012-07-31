@@ -1,1 +1,1 @@
-Contact me at: oldschool@outlook.com or backdoor@outlook.com
+equin0x's batch repository.
