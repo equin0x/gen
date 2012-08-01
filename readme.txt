@@ -1,1 +1,1 @@
-equin0x's batch repository.
+equin0x's security and scripting repository.
