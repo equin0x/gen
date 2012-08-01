@@ -27,7 +27,7 @@ if '%errorlevel%' NEQ '0' (
 
 (
 	ECHO Set Shell = WScript.CreateObject^("WScript.Shell"^)
-	ECHO Wscript.Sleep 110
+	ECHO Wscript.Sleep 200
 	ECHO Shell.SendKeys^("{ENTER}"^)
 	
 )>%TEMP%\Keys.vbs
