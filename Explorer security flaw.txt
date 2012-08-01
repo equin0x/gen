@@ -1,0 +1,21 @@
+                   _        ___       
+                  (_)      / _ \      
+   ___  __ _ _   _ _ _ __ | | | |_  __
+  / _ \/ _` | | | | | '_ \| | | \ \/ /
+ |  __/ (_| | |_| | | | | | |_| |>  < 
+  \___|\__, |\__,_|_|_| |_|\___//_/\_\
+          | |www.github.com/equin0x/bat
+          |_|                         
+
+		  
+Flaw in explorer process.
+	This is by far one of the stupidest things i've ever seen.
+	So microsoft decided to prevent programs frm taskkilling explorer due to skids.
+	Now once you try to do it, you'll notice it reopens righr away.
+	Doesn't sound so stupid huh?
+	Wrong. Let me give an example.
+	Go ahead and type tskill explorer into cmd, you'll see it'll open right back up.
+	Now here's the stupid part, You can end it by just running the command multiple times.
+	Example: tskill explorer && tskill explorer && tskill explorer && tskill explorer && tskill explorer
+	Now watch as it doesn't reopen.
+	GG Microsoft. equin0x out.
