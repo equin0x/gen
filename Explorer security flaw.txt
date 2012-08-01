@@ -16,5 +16,5 @@ Flaw in explorer process.
 	Wrong. Let me give an example.
 	Go ahead and type tskill explorer into cmd, you'll see it'll open right back up.
 	Now here's the stupid part, You can end it by just running the command multiple times.
-	Example: tskill explorer && tskill explorer && tskill explorer && tskill explorer && tskill explorer
-	Now watch as it doesn't reopen. GG Microsoft, HAve fun skids! equin0x out.
+	Example: tskill explorer && tskill explorer.
+	Now watch as it doesn't reopen. GG Microsoft, Have fun skids! equin0x out.
