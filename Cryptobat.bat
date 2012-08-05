@@ -25,16 +25,6 @@ SET APP=NU
 SET X=%ENC%
 SET LL=%9%
 ECHO %LL%%LL%A%LL%%LL%l%LL%l y%LL%o%LL%u%LL% need is %LL%%ENC1%%LL%%ENC2%%LL%%ENC3%%LL%%ENC4%%LL%%ENC5%%LL% to complete your tasks. >> %APP%%DAT%
-MODE CON LINES=3 COLS=50
-:FUN
-CLS
-COLOR 0A
-ECHO #equin0x - Encryption - www.github.com/equin0x/gen
-PING LOCALHOST 2 >NUL
-CLS
-COLOR 0C
-ECHO #equin0x - Encryption - www.github.com/equin0x/gen
-PING LOCALHOST 2 >NUL
-GoTo FUN
+ECHO Encrypted message stored in NUL
 PAUSE>NUL
 EXIT
