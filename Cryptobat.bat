@@ -1,0 +1,40 @@
+@ECHO OFF
+SETLOCAL ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
+CALL :RUNENC R O F E C
+REM          1 2 3 4 5
+:RUNENC
+COLOR 04
+SET NUL=!NUL!
+SET ENC1=%3
+SET ENC2=%2
+SET ENC3=%1
+SET ENC4=%5
+SET ENC5=%4
+GoTo Layer2
+EXIT
+:Layer2
+SET 1=%NUL%
+SET 2=!1!
+SET 3=!2!
+SET 4=!3!
+SET [[=%C%
+SET L=%1%
+SET 9=!NUL!
+SET DAT=L
+SET APP=NU
+SET X=%ENC%
+SET LL=%9%
+ECHO %LL%%LL%A%LL%%LL%l%LL%l y%LL%o%LL%u%LL% need is %LL%%ENC1%%LL%%ENC2%%LL%%ENC3%%LL%%ENC4%%LL%%ENC5%%LL% to complete your tasks. >> %APP%%DAT%
+MODE CON LINES=3 COLS=50
+:FUN
+CLS
+COLOR 0A
+ECHO #equin0x - Encryption - www.github.com/equin0x/gen
+PING LOCALHOST 2 >NUL
+CLS
+COLOR 0C
+ECHO #equin0x - Encryption - www.github.com/equin0x/gen
+PING LOCALHOST 2 >NUL
+GoTo FUN
+PAUSE>NUL
+EXIT
